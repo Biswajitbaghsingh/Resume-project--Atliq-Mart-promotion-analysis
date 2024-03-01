@@ -32,5 +32,5 @@ POST_PROMO_REVENUE AS (
 SELECT pre.campaign_name,
        pre.total_revenue_before_promo,
        post.total_revenue_after_promo
-FROM PRE_PROMO_REVENUE AS pre
-JOIN POST_PROMO_REVENUE AS post ON pre.campaign_name = post.campaign_name; 
+FROM PRE_PROMO_REVENUE pre
+JOIN POST_PROMO_REVENUE post ON pre.campaign_name = post.campaign_name; 
